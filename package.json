@@ -1,0 +1,19 @@
+{
+  "name": "testing-redux-side-effects",
+  "version": "0.0.0",
+  "description": "Notes on testing side effect in Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Thomas Marek <ttmarek@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redux-observable": "^0.14.1",
+    "redux-saga": "^0.15.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}
