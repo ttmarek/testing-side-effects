@@ -4,16 +4,20 @@
   "description": "Notes on testing side effect in Redux",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "author": "Thomas Marek <ttmarek@outlook.com>",
   "license": "MIT",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "redux": "^3.6.0",
     "redux-observable": "^0.14.1",
     "redux-saga": "^0.15.0",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-    "jest": "^19.0.2"
+    "jest": "^19.0.2",
+    "nock": "^9.0.13",
+    "redux-mock-store": "^1.2.3"
   }
 }
